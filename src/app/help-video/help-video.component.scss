@@ -1,0 +1,45 @@
+.tab-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .tab {
+    flex-basis: 20%;
+    flex-direction: column;
+    background-color: inherit;
+    color: black;
+    padding: 10px 10px;
+    cursor: pointer;
+  }
+  .tablinks {
+    background-color: inherit;
+    color: black;
+    padding: 10px 10px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .tab .tablinks:active {
+    color: #cb0c9f;
+  
+    
+  }
+  .dropdown-content {
+    margin: 0.25rem;
+  }
+  
+  .tab-content {
+    flex-basis: 80%;
+    margin: 10px;
+    // background-color: bisque;
+  }
+  .faq_body {
+    // background-color: cadetblue;
+  }
+  .card {
+    // background-color: burlywood;
+    margin: 10px;
+  }
+  .faq_question {
+    color: darkmagenta;
+  }
+  
